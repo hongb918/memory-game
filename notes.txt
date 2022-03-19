@@ -1,7 +1,8 @@
 [x] creating the skeleton of the game
     [x] front end tasks: initial styling of the game
-        [x] deciding on the numbers of card
-        [x] deciding on the deck of cards
+        [x] deciding on the numbers of card (14)
+        [x] deciding on the deck of cards (canvas)
+        [x] finding fonts
         [x] linking images
         [x] how to flip the cards? CSS based tasks
         [x] 
@@ -11,6 +12,9 @@
   [x] starting the game 
         [x] start game button 
         [x] 
+  [x] points earning
+  [x] game over
+  [x] reset
 
 
 

@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 20px 4rem 10rem 4rem;
+}
+
+.grid {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: thistle;
+    border: solid 5px whitesmoke;
+    position: relative;
+    transition: all .4s linear;
+    transform-style: preserve-3d;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    text-align: center;
+}
+
+div.scoreboard {
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
