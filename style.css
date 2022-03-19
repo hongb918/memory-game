@@ -2,10 +2,11 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 body {
-    background-color: bisque;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(170, 143, 20, 0.9)), to(rgba(2, 46, 11, 0.9)));
     width: 100%;
     margin: 20px 0;
 }
@@ -22,7 +23,7 @@ body {
     position: relative;
     transition: all .4s relative;
     transform-style: preserve-3d;
-    margin: 5px;
+    margin: 7px;
     height: 20vh;
     width: 10vw;
 }
@@ -41,6 +42,8 @@ body {
 h1 {
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 1.5rem;
+    box-shadow: 2px 2px 2px #ff5f56;
 }
 
 main {
@@ -58,10 +61,13 @@ div.scoreboard {
 
 .back {
     transform: rotateY(180deg);
-    background-color:#6589F9;
+    /* background-color:#bdc3d4; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
 }
 
 .chosen {
@@ -69,5 +75,18 @@ div.scoreboard {
 }
 
 .match .front{
-    background: cornflowerblue !important;
+    background: rgb(248, 229, 152) !important;
+}
+
+button {
+    margin-top: 3rem;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(126, 85, 10);
+    box-shadow: 2px 2px 2px #ff5f56;
+    background: wheat;
+    border: 1px solid;
 }

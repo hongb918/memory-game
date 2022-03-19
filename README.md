@@ -4,7 +4,7 @@ For this project, I am re-creating a memory game. he game follow a traditional m
 
 In this repo, I build a focus around array methods, and setting Attributes in Javascript. 
 
-Applications and Approachs:
+APPLICATIONS & APPROACHES:
 - HTML
 - CSS
 - JAVSCRIPT
@@ -14,3 +14,11 @@ Applications and Approachs:
     . appendChild
     . addEventListener
     . for Loops
+- All images are found through Canva website.
+
+
+UNSOLVED PROBLEMS & MAJOR HURDLES:
+- Adding in timer and reset button for the game
+- One major hurdle was finding ways to transition the cards into an array.
+
+

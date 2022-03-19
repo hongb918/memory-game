@@ -4,8 +4,8 @@ const scoreDisplay = document.querySelectorAll('.points')
 
 const cardIndex = [
     {
-        name: 'blue',
-        img: 'lib/blue2.png'
+        name: 'donuts',
+        img: 'lib/donuts.jpg'
     },
     {
         name: 'nose',
@@ -16,12 +16,12 @@ const cardIndex = [
         img: 'lib/orange.png'
     },
     {
-        name: 'rocket',
-        img: 'lib/rocket.png'
+        name: 'ramen',
+        img: 'lib/ramen2.jpg'
     },
     {
-        name: 'tv',
-        img: 'lib/tv.png'
+        name: 'laCat',
+        img: 'lib/lacat2.jpg'
     },
     {
         name: 'playful',
@@ -40,6 +40,7 @@ const grid = document.createElement('section');
 grid.setAttribute('class', 'grid');
 game.appendChild(grid);
 
+let moves = 0;
 
 for (let i = 0; i < gameBoard.length; i++) {
     let cards = document.createElement('div');
@@ -58,12 +59,18 @@ for (let i = 0; i < gameBoard.length; i++) {
     grid.appendChild(cards);
     cards.appendChild(front);
     cards.appendChild(back);
+
+    cards.addEventListener('click', (e) => {
+        let counter = document.querySelector('.counter');
+        moves++;
+        counter.innerHTML = moves;
+    })
 }
 
 
 let firstCard = '';
 let secondCard = '';
-let moves = 0;
+let count = 0;
 let previousTarget = null;
 let delay = 1200;
 
@@ -78,7 +85,7 @@ let matchingPair = function () {
 const restartGame = () => {
     firstCard = '';
     secondCard = '';
-    moves = 0;
+    count = 0;
     previousTarget = null;
 
     let chosen = document.querySelectorAll('.chosen');
@@ -92,9 +99,9 @@ grid.addEventListener('click', (event) => {
     if (clickedCard.nodeName === 'section' || clickedCard === previousTarget || clickedCard.parentNode.classList.contains('chosen')) {
         return;
     }
-    if (moves < 2) {
-        moves++;
-        if (moves === 1) {
+    if (count < 2) {
+        count++;
+        if (count === 1) {
             firstCard = clickedCard.parentNode.dataset.name;
             clickedCard.parentNode.classList.add('chosen');
         } else {
@@ -115,22 +122,4 @@ grid.addEventListener('click', (event) => {
 
 
 
-//Wining Message
-const winningMessage = () => `You've won!`;
 
-// function showingMoves () {
-
-// }
-
-// function showingScore () {
-
-// }
-
-
-
-
-
-//setting event listeners for game card
-
-
-//setting event listners for reset button
