@@ -76,7 +76,7 @@ let count = 0;
 let previousTarget = null;
 let delay = 1200;
 
-//creating a function that holds once a pair is found.
+//creating a value that holds function once a pair is found.
 let matchingPair = function () {
     let chosen = document.querySelectorAll('.chosen');
     for (let i = 0; i < chosen.length; i++) {
@@ -121,6 +121,7 @@ grid.addEventListener('click', (event) => {
             //card comparison logic
             if (firstCard === secondCard) {
                 setTimeout(matchingPair, delay);
+                //setting a paraemter(code/function, time )
                 setTimeout(restartGame, delay)
             } else {
                 setTimeout(restartGame, delay)
