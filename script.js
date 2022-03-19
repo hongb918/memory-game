@@ -4,28 +4,28 @@ const scoreDisplay = document.querySelectorAll('.points')
 
 const cardIndex = [
     {
-        'name': 'blue',
-        'img': 'lib/baking.png'
+        name: 'blue',
+        img: 'lib/blue2.png'
     },
     {
-        'name': 'nose',
-        'img': 'lib/baking.png'
+        name: 'nose',
+        img: 'lib/nose.png'
     },
     {
-        'name': 'orange',
-        'img': 'lib/baking.png'
+        name: 'orange',
+        img: 'lib/orange.png'
     },
     {
-        'name': 'rocket',
-        'img': 'lib/baking.png'
+        name: 'rocket',
+        img: 'lib/rocket.png'
     },
     {
-        'name': 'tv',
-        'img': 'lib/baking.png'
+        name: 'tv',
+        img: 'lib/tv.png'
     },
     {
-        'name': 'playful',
-        'img': 'lib/baking.png',
+        name: 'playful',
+        img: 'lib/playful.png',
     }
 ]
 
@@ -52,6 +52,7 @@ for (let i = 0; i < gameBoard.length; i++) {
 
     //declaring the bacground image of the back of the card using the object value of images    
     let back = document.createElement('div');
+    back.classList.add('back');
     back.style.backgroundImage = `url(${gameBoard[i].img})`;
 
     grid.appendChild(cards);
