@@ -1,39 +1,31 @@
-
-//Possibly adding in the game status
-let gameActive = true;
-
-
 //storing how many moves i.e times player click on the card
 const moveDisplay = document.querySelector('.moves');
 const scoreDisplay = document.querySelectorAll('.points')
 
-
-
-
 const cardIndex = [
     {
-        name: 'blue',
-        img: './blue.png'
+        'name': 'blue',
+        'img': 'lib/baking.png'
     },
     {
-        name: 'nose',
-        img: './nose.png'
+        'name': 'nose',
+        'img': 'lib/baking.png'
     },
     {
-        name: 'orange',
-        img: './orange.png'
+        'name': 'orange',
+        'img': 'lib/baking.png'
     },
     {
-        name: 'rocket',
-        img: './rocket.png'
+        'name': 'rocket',
+        'img': 'lib/baking.png'
     },
     {
-        name: 'tv',
-        img: './tv.png'
+        'name': 'tv',
+        'img': 'lib/baking.png'
     },
     {
-        name: 'playful',
-        img: './playful.png'
+        'name': 'playful',
+        'img': 'lib/baking.png',
     }
 ]
 
@@ -93,7 +85,6 @@ const restartGame = () => {
         chosen[i].classList.remove('chosen');
     }
 };
-
 
 grid.addEventListener('click', (event) => {
     let clickedCard = event.target;

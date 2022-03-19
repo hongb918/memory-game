@@ -1,8 +1,13 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: bisque;
     width: 100%;
-    font-size: 1.6rem;
-    margin: 20px 4rem 10rem 4rem;
+    margin: 20px 0;
 }
 
 .grid {
@@ -18,19 +23,20 @@ body {
     transition: all .4s relative;
     transform-style: preserve-3d;
     margin: 5px;
-    height: 150px;
-    width: 150px;
+    height: 20vh;
+    width: 10vw;
 }
 
 .back,.front {
-    height: 150px;
-    width: 150px;
+    height: 20vh;
+    width: 10vw;
     position: absolute;
     backface-visibility: hidden;
 }
 
 .front {
-    background: thistle;
+    z-index: 2;
+    background: #FAB942 no-repeat center center / contain;
 }
 h1 {
     text-align: center;
@@ -52,10 +58,10 @@ div.scoreboard {
 
 .back {
     transform: rotateY(180deg);
-    background-color: tomato;
+    background-color:#6589F9;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
 }
 
 .chosen {
