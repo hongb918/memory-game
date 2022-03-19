@@ -14,16 +14,24 @@ body {
 }
 
 .card {
-    background-color: thistle;
-    border: solid 5px whitesmoke;
     position: relative;
-    transition: all .4s linear;
+    transition: all .4s relative;
     transform-style: preserve-3d;
-    margin: 20px;
+    margin: 5px;
     height: 150px;
     width: 150px;
 }
 
+.back,.front {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    background: thistle;
+}
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -42,3 +50,18 @@ div.scoreboard {
     justify-content: space-evenly;
 }
 
+.back {
+    transform: rotateY(180deg);
+    background-color: tomato;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chosen {
+    transform: rotateY(180deg);
+}
+
+.match .front{
+    background: cornflowerblue !important;
+}
