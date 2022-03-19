@@ -16,9 +16,11 @@ APPLICATIONS & APPROACHES:
     . for Loops
 - All images are found through Canva website.
 
+WIREFRAME:
+![wireframe](https://user-images.githubusercontent.com/95890211/159129762-8efe5bb5-9b2e-4960-b589-33f4148bdfb1.png)
 
 UNSOLVED PROBLEMS & MAJOR HURDLES:
-- Adding in timer and reset button for the game
+- Adding in timer and reset button for the gamef
 - One major hurdle was finding ways to transition the cards into an array.
 
 
