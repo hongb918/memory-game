@@ -5,7 +5,7 @@ const scoreDisplay = document.querySelectorAll('.points')
 const cardIndex = [
     {
         name: 'donuts',
-        img: 'lib/donuts.jpg'
+        img: 'lib/donuts2.png'
     },
     {
         name: 'nose',
@@ -17,11 +17,11 @@ const cardIndex = [
     },
     {
         name: 'ramen',
-        img: 'lib/ramen2.jpg'
+        img: 'lib/ramen2.png'
     },
     {
         name: 'laCat',
-        img: 'lib/lacat2.jpg'
+        img: 'lib/lacat2.png'
     },
     {
         name: 'playful',

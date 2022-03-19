@@ -37,9 +37,13 @@ body {
 
 .front {
     z-index: 2;
+    /* background-image: url("lemon.png"); */
+    position: absolute;
     background: #FAB942 no-repeat center center / contain;
 }
 h1 {
+    color: rgb(77, 53, 23);
+    font-size: 250%;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.5rem;
@@ -89,4 +93,9 @@ button {
     box-shadow: 2px 2px 2px #ff5f56;
     background: wheat;
     border: 1px solid;
+}
+
+label {
+    font-size: 25px;
+    color: rgb(226, 143, 17);
 }
