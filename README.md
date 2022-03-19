@@ -23,3 +23,8 @@ UNSOLVED PROBLEMS & MAJOR HURDLES:
 
 
 GitHub: https://github.com/hongb918/memory-game
+
+Screenshots of the App:
+<img width="1342" alt="Screen Shot 2022-03-19 at 10 42 18 AM" src="https://user-images.githubusercontent.com/95890211/159127993-bec4bfe5-525f-4502-8364-7d1ef503a789.png">
+<img width="1440" alt="Screen Shot 2022-03-19 at 10 43 12 AM" src="https://user-images.githubusercontent.com/95890211/159128012-dbd315ba-be86-4b90-9a51-bc9e0ca40579.png">
+<img width="1440" alt="Screen Shot 2022-03-19 at 10 43 18 AM" src="https://user-images.githubusercontent.com/95890211/159128018-01b511d3-3106-46b6-8cde-883ea695d3c1.png">
