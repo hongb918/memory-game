@@ -17,6 +17,7 @@ APPLICATIONS & APPROACHES:
 - All images are found through Canva website.
 
 WIREFRAME:
+
 ![wireframe](https://user-images.githubusercontent.com/95890211/159129762-8efe5bb5-9b2e-4960-b589-33f4148bdfb1.png)
 
 UNSOLVED PROBLEMS & MAJOR HURDLES:
