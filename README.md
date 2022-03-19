@@ -20,9 +20,6 @@ WIREFRAME:
 
 ![wireframe](https://user-images.githubusercontent.com/95890211/159129762-8efe5bb5-9b2e-4960-b589-33f4148bdfb1.png)
 
-UNSOLVED PROBLEMS & MAJOR HURDLES:
-- Adding in timer and reset button for the gamef
-- One major hurdle was finding ways to transition the cards into an array.
 
 
 GitHub: https://github.com/hongb918/memory-game
@@ -44,3 +41,8 @@ When the User clicks on the 2nd card:
 * If there is a match, the 2 cards will be eliminated from the game (either hide/remove them or leave them in the visible state)
 * If there isn’t a match, the 2 cards will flip back to their original state (hiddenstate)
 * When all the matches have been found, User can restart the game by refreshing the page.
+
+
+UNSOLVED PROBLEMS & MAJOR HURDLES:
+- Adding in timer and reset button for the gamef
+- One major hurdle was finding ways to transition the cards into an array.
